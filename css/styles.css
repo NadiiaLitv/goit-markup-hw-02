@@ -5,39 +5,79 @@
   text-decoration: none;
 }
 
-:root {
-  /* Colors */
-  --primary-color-navyblue: #2e2f42;
-  --secondary-color-slate: #434455;
-  --accent-color-irys: #4d5ae5;
-  --color-text-white: #ffffff;
-  --color-text-cloud: #f4f4fd;
-  /* Background */
-  --background-color-light: #ffffff;
-  --background-color-dark: #2e2f42;
-  /* Fonts */
-  --primary-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
-}
-
-body {
-  font-family: var(--primary-font);
-}
-/* Components */
-.section {
-  background-color: var(--background-color-dark);
-}
-.title {
-  color: var(--primary-color-navyblue);
-}
-
-.text {
-  color: var(--secondary-color-slate);
-}
-.header-nav-list {
-  color: var(--primary-color-navyblue);
+/* HEADER */
+.menu-link {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contacts-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* HERO */
+.section-hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
+}
+
+/* FEATURES */
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.about-section {
+  background: #f4f4fd;
 }
