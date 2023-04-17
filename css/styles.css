@@ -5,6 +5,39 @@
   text-decoration: none;
 }
 
+:root {
+  /* Colors */
+  --primary-color-navyblue: #2e2f42;
+  --secondary-color-slate: #434455;
+  --accent-color-irys: #4d5ae5;
+  --color-text-white: #ffffff;
+  --color-text-cloud: #f4f4fd;
+  /* Background */
+  --background-color-light: #ffffff;
+  --background-color-dark: #2e2f42;
+  /* Fonts */
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font);
+}
+/* Components */
+.section {
+  background-color: var(--background-color-dark);
+}
+.title {
+  color: var(--primary-color-navyblue);
+}
+
+.text {
+  color: var(--secondary-color-slate);
+}
+.header-nav-list {
+  color: var(--primary-color-navyblue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.02em;
 }
