@@ -33,7 +33,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -43,7 +43,9 @@ body {
 .logo-header {
   color: var(--color-grey);
 }
-
+.contacts {
+  font-style: normal;
+}
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -76,12 +78,13 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.2;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
 .hero-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -95,6 +98,17 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background: var(--color-ocean);
+}
+
+.works-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
 }
 
 /* COMPONENTS *FEATURES*, *ABOUT*,*PORTFOLIO**/
@@ -117,7 +131,9 @@ body {
 .about-section {
   background: var(--color-cloud);
 }
-
+.menu-team-item {
+  background-color: var(--color-white);
+}
 /* FOOTER */
 .footer-section {
   background: var(--color-grey);
@@ -135,6 +151,7 @@ body {
 
 /* PORTFOLIO */
 .btn-filter {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -144,6 +161,7 @@ body {
   cursor: pointer;
   letter-spacing: 0.04em;
   color: var(--color-iris);
+  background-color: var(--color-cloud);
 }
 .btn-filter:hover,
 .btn-filter:focus {
